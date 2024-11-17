@@ -1,7 +1,8 @@
 <?php
 session_start();
 if (isset($_POST['app_id']) && isset($_POST['rating']) && isset($_SESSION['user'])) {
-    $conn = new mysqli("85.193.87.122", "tesamarket", "Ggjksu29-=", "tesamarket");
+    $conn = new mysqli("", "", "", "");
+
 
     $app_id = $_POST['app_id'];
     $rating = (int)$_POST['rating'];
