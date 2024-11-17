@@ -1,5 +1,6 @@
 <?php
-$conn = new mysqli("85.193.87.122", "tesamarket", "Ggjksu29-=", "tesamarket");
+$conn = new mysqli("", "", "", "");
+
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['name'];
