@@ -1,6 +1,7 @@
 <?php
 // Подключение к базе данных
-$conn = new mysqli("85.193.87.122", "tesamarket", "Ggjksu29-=", "tesamarket");
+$conn = new mysqli("", "", "", "");
+
 
 // Получаем данные из запроса
 $data = json_decode(file_get_contents('php://input'), true);
