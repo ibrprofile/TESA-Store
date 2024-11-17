@@ -1,6 +1,7 @@
 <?php
 // Подключение к базе данных
-$conn = new mysqli("85.193.87.122", "tesamarket", "Ggjksu29-=", "tesamarket");
+$conn = new mysqli("", "", "", "");
+
 
 // Получаем приложения из базы данных
 $apps_result = $conn->query("SELECT * FROM apps WHERE public = 1 ORDER BY id DESC");
