@@ -2,7 +2,7 @@
 session_start();
 
 // Подключение к базе данных
-$conn = new mysqli("85.193.87.122", "tesamarket", "Ggjksu29-=", "tesamarket");
+$conn = new mysqli("", "", "", "");
 
 // Проверка авторизации
 if (!isset($_SESSION['user'])) {
